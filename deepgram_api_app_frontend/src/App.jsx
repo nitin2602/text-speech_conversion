@@ -14,7 +14,6 @@ const App = () => {
         </Routes>
       </main>
 
-      {/* Footer component will be shown on all pages */}
       <Footer />
     </div>
   );

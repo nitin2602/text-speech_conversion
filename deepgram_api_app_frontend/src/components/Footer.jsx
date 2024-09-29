@@ -2,23 +2,20 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" pb-5 px-5 flex-col justify-center items-center bg-gray-900 border-t border-gray-900 pt-3 sm:flex-row sm:items-center sm:justify-between ">
-      <p className=" font-bold text-white ">Built By Nitin Tripathi</p>
+    <footer className="bg-gray-900 border-t border-gray-900 py-5 px-5 flex flex-col items-center sm:flex-row sm:justify-between">
+      <p className="font-bold text-white mb-4 sm:mb-0">Built By Nitin Tripathi</p>
 
-      <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
-      
-
+      <ul className="flex justify-center gap-6">
         <li>
           <a
             href="#"
             rel="noreferrer"
             target="_blank"
-            className="text-gray-700 transition hover:opacity-75"
+            className="text-white transition hover:opacity-75"
           >
             <span className="sr-only">Twitter</span>
-
             <svg
-              className="size-6"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -33,12 +30,11 @@ const Footer = () => {
             href="https://github.com/nitin2602?tab=repositories"
             rel="noreferrer"
             target="_blank"
-            className="text-gray-700 transition hover:opacity-75"
+            className="text-white transition hover:opacity-75"
           >
             <span className="sr-only">GitHub</span>
-
             <svg
-              className="size-6"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -51,10 +47,8 @@ const Footer = () => {
             </svg>
           </a>
         </li>
-
-        
       </ul>
-    </div>
+    </footer>
   );
 };
 
