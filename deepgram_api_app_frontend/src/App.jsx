@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow">
+      <main className=" w-full">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/text-speech-playground" element={<Playground />} />

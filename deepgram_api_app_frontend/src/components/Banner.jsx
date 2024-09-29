@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <section className="bg-gray-900 text-white">
-      <div className=" px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <div className=" px-4 py-20 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className=" overflow-hidden bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
             Welcome to Text -> Speech Conversion.
