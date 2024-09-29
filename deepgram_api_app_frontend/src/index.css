@@ -4,7 +4,10 @@
 
 html, body {
     height: 100vh;
+<<<<<<< HEAD
     width: 100vw;
+=======
+>>>>>>> a1630744685286ab8eaf5f422a76d54fb117a17d
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
