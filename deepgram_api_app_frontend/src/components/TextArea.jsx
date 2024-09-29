@@ -31,7 +31,7 @@ const TextArea = () => {
     try {
       // Send the input text to the backend API and expect an audio response as an array buffer
       const response = await axios.post(
-        "https://text-speech-conversion.vercel.app/api/convert-to-speech",
+        "https://text-speech-conversion-backend.vercel.app/api/convert-to-speech",
         { text },
         { responseType: "arraybuffer" } // Array buffer for binary audio data
       );
